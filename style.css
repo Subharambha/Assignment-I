@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf8f3; /* Light cream color for the background */
+    font-family: 'Arial', sans-serif;
+}
+
+header, footer {
+    background-color: #FF6347; /* Tomato red for header and footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-text {
+    margin-top: 20px;
+    color: #333; /* Dark gray color for header text */
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for the image */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #FF6347; /* Tomato red border for the main content */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* A bit stronger shadow for the main content */
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px solid #FF6347; /* Tomato red border for fieldsets */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FF6347; /* Tomato red color for legend */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Dark gray color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px; /* Slightly increased padding for inputs and textareas */
+    border: 2px solid #ccc;
+    border-radius: 8px; /* Rounded corners for inputs and textareas */
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Increased margin for better separation */
+    transition: border-color 0.3s; /* Smooth transition for input border color */
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #FF6347; /* Change border color on focus to Tomato red */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px; /* Slightly increased margin for checkboxes and radios */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #FF4500; /* Orange Red color for submit and reset buttons */
+    color: #fff;
+    border: none;
+    padding: 12px 25px; /* Increased padding for buttons */
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #FF6347; /* Slightly darker shade on hover for a spicy effect */
+}
+
+/* Additional Styling for Footer */
+footer {
+    margin-top: 20px;
+    background-color: #333; /* Dark gray color for the footer background */
+    padding: 15px 20px; /* Increased padding for the footer */
+}
+
+footer p {
+    font-size: 1em; /* Slightly increased font size */
+    color: #fff;
+    margin: 0; /* Remove default margin for the paragraph */
+}
